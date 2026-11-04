@@ -15,7 +15,9 @@ The Switch hackathon gave every issue to everyone who asked, and "only one PR wi
 
 **How Switch is used:** Rooms in Discord/Slack/Mattermost, one per issue. Shaka (Claude Code), Lilith (Antigravity) and Punk Records (custom agent on the raw agent protocol: SSE stream, 2 s heartbeat, `create_room`, `read_context`, room documents) work in the same room. Evidence is attached as Switch room documents. Addressing policies restrict who can instruct each satellite. Without Switch there is no shared room, no human gate and no multi-vendor council.
 
-**Links to fill in:** repo URL, demo video URL, blog URL, social post URL.
+**Repo:** https://github.com/srinjoy356/vegapunk
+
+**Links to fill in:** demo video URL, blog URL, social post URL.
 
 ## 2. Numbers to quote **(refresh)**
 
@@ -51,7 +53,7 @@ After sealing, add: `Sealed ranking hash: <sha256>`.
 
 ## 5. Publishing checklist
 
-- [ ] Create the public GitHub repo (name `vegapunk`) and push (section 6).
+- [x] Public repo created and pushed: https://github.com/srinjoy356/vegapunk
 - [ ] Edison finished; `uv run python -m vegapunk.council --top 8` done; `uv run python -m vegapunk.report` and `python -m vegapunk.results` regenerated.
 - [ ] Record the demo (section 3), upload (YouTube unlisted works), paste link above.
 - [ ] Publish `docs/blog-draft.md` (dev.to, Hashnode or Medium), refresh its numbers, link the repo.

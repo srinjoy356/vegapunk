@@ -61,4 +61,4 @@ The fake secret is invisible to tests by design, so I ran a blind tribunal: the 
 - Let the measurement attack the system. The planted-defect harness found a hole in Edison that no amount of reading the code had.
 - Print disagreements. Two models from two vendors disagreeing about #803 was the most useful output of the day.
 
-Code: [repo link]. Results: `docs/results.md`.
+Code: https://github.com/srinjoy356/vegapunk. Results: `docs/results.md`.
