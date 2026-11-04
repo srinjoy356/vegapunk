@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+cache/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+sandbox-runs/
