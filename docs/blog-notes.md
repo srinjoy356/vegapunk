@@ -95,3 +95,9 @@ Run Vegapunk's satellites as Switch agents on one Windows 11 laptop: Claude Code
 - `~/.ssh/config` host `wsl-switch` with the ProxyCommand above
 - Ubuntu: user in `docker` group; sshd on 2222 keys only; Node 22; `antigravity-acp --login` and `claude` login done as the same user Console uses
 - After reboot: start WSL (`wsl -d Ubuntu -u srinjoy`), then open Console; Egghead containers have no restart policy
+
+## Nov 5-6: the night the laptop fought back
+- Eight tribunals at once plus 7 Antigravity and 7 Claude sessions OOM-killed WSL (load 59). Rule: one tribunal at a time, and reap agent sessions idle over 30 minutes.
+- Console cannot restart a dead SSH controller ("Machine offline" stays stale); start `agent-controller run` by hand. Console's own port bridge also drops: a self-healing `ssh -L` loop replaced it.
+- C: hit 99%: Docker data vhdx, WSL vhdx and Temp. Fix: `wsl --manage --set-sparse true` right after `wsl --shutdown`, plus fstrim.
+- WSL hung twice overnight with memory under the cap; a guardian script now probes the API every 3 minutes and runs the recovery.

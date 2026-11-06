@@ -1,8 +1,8 @@
-# I built a council of AI agents to judge 149 competing pull requests. Here's what broke.
+# I built a council of AI agents to judge 230+ competing pull requests. Here's what broke.
 
 *Draft for the Flip the Switch "Best Blog" side track. Numbers are from day 1; update before publishing.*
 
-The Switch hackathon has a Track 03 for core contributions. Every one of its 63 issues was assigned to everyone who asked, and the maintainers said one PR would be picked per issue. On day one there were already 149 competing PRs, two to six per issue. Somebody has to read all of them, check each against what the maintainer said in the comments, run them, and choose.
+The Switch hackathon has a Track 03 for core contributions. Every one of its 65 issues was assigned to everyone who asked, and the maintainers said one PR would be picked per issue. On day one there were already 149 competing PRs, two to six per issue. Somebody has to read all of them, check each against what the maintainer said in the comments, run them, and choose.
 
 So I built **Vegapunk**: a council of AI agents that does that work inside [Switch](https://github.com/sandbox-quantum/switch), with a human making the final call. The name comes from One Piece: Dr. Vegapunk split his mind into satellites that share one brain.
 

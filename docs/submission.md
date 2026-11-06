@@ -21,10 +21,10 @@ The Switch hackathon gave every issue to everyone who asked, and "only one PR wi
 
 ## 2. Numbers to quote **(refresh)**
 
-- 65 hackathon issues, 149 competing PRs on day 1; 47 issues have 2 or more PRs.
+- 65 hackathon issues, 233 competing PRs by Nov 6 (149 on day 1); 59 issues have 2 or more PRs; 39 contested issues ranked with satellite verdicts (see `docs/results.md`).
 - Backtest: 40 past PRs, AUC 0.79; PRs Edison proves are merged 58% of the time, broken ones 17%, unproven ones 0%.
 - Planted defects: implementation removed, tests hollowed, tests skipped = 12/12 caught by Edison. A planted fake AWS key and GitHub token were flagged critical/high by Lilith and high by Shaka in a blind tribunal.
-- Paid model spend: under $0.01 of the $1 cap (`python -m vegapunk.york`).
+- Paid model spend: about $0.02 of the $1 cap (`python -m vegapunk.york`).
 - Tribunals with both satellites: see `docs/results.md`.
 
 ## 3. Demo video script (about 3 minutes)
@@ -47,7 +47,7 @@ Record the screen with sound. Keep Discord on one side and the terminal or `cach
 
 ## 4. Social post (#HowISwitch)
 
-> Built Vegapunk for #HowISwitch: a council of AI agents in Switch that ranks the 149 competing PRs in the hackathon. Claude and Gemini agents + a sandbox that proves each PR's tests fail before and pass after, in one Discord room, with a human making the call. I'm sealing my predictions with a SHA-256 and will score them against what the maintainers choose. Repo + demo: <links> @switch
+> Built Vegapunk for #HowISwitch: a council of AI agents in Switch that ranks the 230+ competing PRs in the hackathon. Claude and Gemini agents + a sandbox that proves each PR's tests fail before and pass after, in one Discord room, with a human making the call. I'm sealing my predictions with a SHA-256 and will score them against what the maintainers choose. Repo + demo: <links> @switch
 
 After sealing, add: `Sealed ranking hash: <sha256>`.
 
