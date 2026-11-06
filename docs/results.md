@@ -1,19 +1,19 @@
 # Vegapunk results
 
-_Generated 2026-11-06 01:00 UTC from `cache/`._
+_Generated 2026-11-06 06:48 UTC from `cache/`._
 
 ## Edison on the hackathon PRs
 
-198 of 233 competing PRs through the sandbox so far.
+233 of 233 competing PRs through the sandbox so far.
 
 | Verdict | PRs |
 |---|---|
-| Proven | 160 |
-| No tests | 19 |
+| Proven | 191 |
+| No tests | 23 |
 | Broken | 13 |
 | Unreproducible | 6 |
 
-76 of them also change TypeScript tests, which Edison lists but does not run yet.
+98 of them also change TypeScript tests, which Edison lists but does not run yet.
 
 ## Backtest: does Edison's evidence predict a merge?
 
@@ -44,14 +44,14 @@ Secret-planted twin #91153 of #1153 in a blind tribunal: flagged high/critical b
 
 59 contested issues ranked; 39 with satellite verdicts.
 
-- #768 Add DeepSeek Harness as an agent provider: #1104 (0.47), #1344 (0.45); pick #1104, confidence low; shaka picked #1344, combined pick is #1104; lilith picked #1344, combined pick is #1104
+- #768 Add DeepSeek Harness as an agent provider: #1541 (0.84), #1104 (0.47), #1344 (0.45); pick #1541, confidence high; shaka picked #1344, combined pick is #1541; lilith picked #1344, combined pick is #1541
 - #769 Add email as a messaging platform: #1211 (0.49), #1241 (0.48), #1213 (0.40), #1240 (0.30); pick #1211, confidence low; lilith picked #1240, combined pick is #1211; shaka picked #1241, combined pick is #1211
-- #770 Enable the Linear connector: #1416 (0.88), #1428 (0.75), #1468 (0.71), #1118 (0.65); pick #1416, confidence medium
+- #770 Enable the Linear connector: #1416 (0.88), #1564 (0.80), #1428 (0.76), #1468 (0.72), #1118 (0.65); pick #1416, confidence medium
 - #771 Scheduled messages to agents in a room: #1153 (0.76), #1154 (0.42); pick #1153, confidence high
-- #774 Add Mistral Vibe as an agent provider: #1059 (0.82), #1199 (0.38); pick #1059, confidence high
+- #774 Add Mistral Vibe as an agent provider: #1059 (0.84), #1513 (0.81), #1199 (0.39); pick #1059, confidence low
 - #781 Add Amp as an agent provider: #1470 (0.51), #1201 (0.36); pick #1470, confidence high
 - #783 Add Factory Droid as an agent provider: #1151 (0.53), #1195 (0.49); pick #1151, confidence low
-- #784 Add Cline CLI as an agent provider: #1137 (0.82), #1142 (0.65), #1121 (0.39); pick #1137, confidence high
+- #784 Add Cline CLI as an agent provider: #1516 (0.87), #1137 (0.81), #1142 (0.65), #1121 (0.38); pick #1516, confidence medium; shaka picked #1137, combined pick is #1516; lilith picked #1137, combined pick is #1516
 - #790 Add Google Chat as a messaging platform: #1337 (0.86), #1278 (0.41); pick #1337, confidence high
 - #791 Add Zulip as a messaging platform: #1451 (0.87), #1279 (0.42); pick #1451, confidence high
 - #792 Add Signal as a messaging platform: #1228 (0.78), #1041 (0.34); pick #1228, confidence high
@@ -59,11 +59,11 @@ Secret-planted twin #91153 of #1153 in a blind tribunal: flagged high/critical b
 - #796 Add SMS (Twilio) as a messaging platform: #1244 (0.76), #1233 (0.50), #1049 (0.42); pick #1244, confidence high
 - #799 Bring-your-own messaging app (generic webhook platform): #1461 (0.90), #1216 (0.61), #1453 (0.50); pick #1461, confidence high
 - #800 Cancel a pending message before the agent picks it up: #1403 (0.87), #1437 (0.83), #1496 (0.70), #1405 (0.59), #1164 (0.37); pick #1403, confidence low; lilith picked #1437, combined pick is #1403
-- #801 Deliver messages sent mid-turn to the running agent (steering): #1494 (0.81), #1499 (0.76), #1465 (0.64), #1445 (0.58), #1055 (0.35); pick #1494, confidence medium
+- #801 Deliver messages sent mid-turn to the running agent (steering): #1494 (0.80), #1499 (0.76), #1465 (0.64), #1445 (0.58), #1055 (0.35); pick #1494, confidence low
 - #803 Show tool input and output in the channel, safely: #1387 (0.58), #1414 (0.52), #1215 (0.31); pick #1387, confidence medium; lilith picked #1414, combined pick is #1387
-- #804 Handle edits to a message the agent hasn't picked up yet: #1502 (0.87), #1503 (0.73), #1473 (0.57), #1329 (0.51), #1046 (0.30); pick #1502, confidence medium
-- #805 Room invites should respect who can talk to an agent: #1043 (0.89), #1449 (0.65), #1406 (0.56), #1443 (0.28), #1287 (0.23), #1549 (0.00); pick #1043, confidence high
-- #806 Prettify the agent controller CLI output: #1042 (0.66), #1402 (0.56), #1450 (0.54), #1038 (0.46), #1442 (0.42), #1186 (0.22), #1408 (0.20), #1486 (0.06); pick #1042, confidence medium; lilith picked #1402, combined pick is #1042
+- #804 Handle edits to a message the agent hasn't picked up yet: #1502 (0.88), #1520 (0.85), #1536 (0.84), #1503 (0.73), #1473 (0.56), #1329 (0.51), #1046 (0.35); pick #1502, confidence low
+- #805 Room invites should respect who can talk to an agent: #1043 (0.88), #1449 (0.64), #1406 (0.54), #1549 (0.39), #1443 (0.28), #1287 (0.22); pick #1043, confidence high
+- #806 Prettify the agent controller CLI output: #1042 (0.66), #1402 (0.56), #1450 (0.54), #1038 (0.46), #1442 (0.42), #1186 (0.22), #1408 (0.20), #1523 (0.20), #1548 (0.20), #1486 (0.06); pick #1042, confidence medium; lilith picked #1402, combined pick is #1042
 - #816 Add the GitLab connector: #1424 (0.85), #1495 (0.84), #1423 (0.79), #1144 (0.74), #1491 (0.39), #1410 (0.37), #1051 (0.23); pick #1424, confidence low; shaka picked #1495, combined pick is #1424; lilith picked #1495, combined pick is #1424
 - #818 Add the Bitbucket connector: #1456 (0.81), #1205 (0.74), #1009 (0.07); pick #1456, confidence medium
 - #819 Add the Notion connector: #1401 (0.86), #1341 (0.75), #1116 (0.35), #1054 (0.23); pick #1401, confidence medium
